@@ -7,18 +7,8 @@ $(function() {
 
     // var markup = "The weather report... " + "wilsl be here when I finish my homework.";
 
-    var markup = {
-    currently: {
-        temperature: "42.24...",
-        summary: "Overcast..." }
-    }
-
-    var markup = {
-    daily: {
-        icon: "snow",
-        summary: "Mixed precipitation on Tuesday through Saturday, with temperatures falling to 30°F on Thursday.", data: [0,1,2] }
-};
-
+    var markup =  {temperature: "37.67", summary:"Mostly Cloudy", icon:"partly-cloudy-night"};
+    data[markup.temperature]
 
     // End of your code
 
