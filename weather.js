@@ -5,22 +5,12 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = "The weather report... " + "wilsl be here when I finish my homework.";
-
-    var markup =  {temperature: "37.67", summary:"Mostly Cloudy", icon:"partly-cloudy-night"};
-    data[markup.temperature]
-
-//     var markup = {
-//     currently: {
-//         temperature: "37.67",
-//         icon: "partly-cloudy-night",
-//         summary: "Partly Cloudy" }
-//     daily:[0,1,2,3,4,5,6,7]
-//         }
-//
-// var data = "It is currently {{currently}}. The extended forecast is {daily: [0,1,2,3]}";
-//
-// var result = Mark.up(template, context);
+    var markup = "<h2> <p>The current temperature is: " + data.currently.temperature + " degrees </h2></p>" +
+    "<p><h2> It is currently: " + data.currently.summary + "</h2></p>" +
+    // "<p>Weather Alert:" + data.alerts[0].description + "</p>" +
+    "<p><h2> Your 3-day forecast - </h2></p>" +
+    "<p><h3>Tommorrow's Weather </h3></p>" + 
+    "Temperature: " + data.daily.data[0].apparentTemperatureMax + "</p>"
 
     // End of your code
 
